@@ -1,0 +1,28 @@
+.header-navigation {
+    background: $primary3;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+        &__item:not(:last-child) {
+            margin-right: 30px;
+        }
+
+    &__link {
+        font-size: 1rem;
+        line-height: 1rem;
+        color: $link-text-color;
+    }
+
+    &__wrapper {
+        padding: 17px 0;
+    }
+
+}

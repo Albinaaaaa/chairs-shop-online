@@ -1,7 +1,10 @@
 html {
-  font-size: 10px;
-  line-height: 10px;
+  font-size: 14px;
+  line-height: 16px;
   color: #000000; }
+
+body {
+  margin: 0; }
 
 h1, h2, h3 {
   margin: 0; }
@@ -11,3 +14,20 @@ a {
   color: #000000; }
   a:hover {
     text-decoration: underline; }
+
+.header-navigation {
+  background: #E5E5E5; }
+  .header-navigation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .header-navigation__item {
+    list-style: none; }
+  .header-navigation__item:not(:last-child) {
+    margin-right: 30px; }
+  .header-navigation__link {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #000000; }
+  .header-navigation__wrapper {
+    padding: 17px 0; }
