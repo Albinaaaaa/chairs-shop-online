@@ -1,0 +1,30 @@
+$background-button: #ffffff;
+
+.callback-block {
+    display: flex;
+    align-items: center;
+    &__tel-number {
+        font-size: 1.14rem;
+        line-height: 1.35rem;
+        color: $link-text-color;
+        margin-right: 40px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__callback-button{
+        border-color: $primary1 !important;
+        background: $background-button;
+        transition: color, box-shadow 0.3s ease;
+
+        &:hover{
+            color: $background-button;
+            background: $primary1;
+            box-shadow: 3px 3px 10px rgba($color: #000000, $alpha: 0.3), 5px 5px 10px rgba($color: #000000, $alpha: 0.35);
+        }
+
+
+    }
+}

@@ -20,6 +20,11 @@ a {
     color: $link-text-color;
 
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
     }
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
 }
