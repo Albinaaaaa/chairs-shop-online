@@ -1,0 +1,10 @@
+.info-blocks {
+    background: $primary3;
+
+    &__wrapper{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        padding: 100px 0;
+    }
+}
