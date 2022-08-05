@@ -152,6 +152,33 @@ a {
   outline: none;
   border: none; }
 
+.super-product {
+  color: #ffffff;
+  background: url("../assets/background.jpg"); }
+  .super-product__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 215px 0; }
+  .super-product__main-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%; }
+  .super-product__title {
+    font-weight: bold;
+    font-size: 3.42rem;
+    line-height: 3.5rem; }
+  .super-product__subtitle {
+    font-size: 1rem;
+    line-height: 1.25rem; }
+  .super-product__button {
+    color: #ffffff;
+    background: transparent;
+    border-color: #ffffff;
+    text-align: center;
+    width: 170px; }
+  .super-product > * :not(:last-child) {
+    margin-bottom: 55px; }
+
 .special-products {
   background: #E5E5E5; }
   .special-products__wrapper {

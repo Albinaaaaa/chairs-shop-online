@@ -1,0 +1,42 @@
+$text-color: #ffffff;
+$border-color: #ffffff;
+
+.super-product {
+    color: $text-color;
+    background: url('../assets/background.jpg');
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 215px 0;
+    }
+
+    &__main-info{
+        display: flex;
+        flex-direction: column;
+        max-width: 35%;
+    }
+
+    &__title{
+        font-weight: bold;
+        font-size: 3.42rem;
+        line-height: 3.5rem;
+    }
+
+    &__subtitle{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+
+    &__button{
+        color: $text-color;
+        background: transparent;
+        border-color: $border-color;
+        text-align: center;
+        width: 170px;
+    }
+
+    & > * :not(:last-child) {
+        margin-bottom: 55px;
+    }
+}
