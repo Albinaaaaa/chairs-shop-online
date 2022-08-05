@@ -133,6 +133,17 @@ a {
   .info-block > * :not(:last-child) {
     margin-bottom: 25px; }
 
+.sponsor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 0.5px solid #E5E5E5;
+  padding: 35px 60px; }
+  .sponsor-item__img {
+    width: 150px;
+    height: 50px; }
+
 .header-navigation {
   background: #E5E5E5; }
   .header-navigation__list {
@@ -228,17 +239,26 @@ a {
   .special-products__title {
     margin-bottom: 40px; }
 
-.recently-watched-products {
-  background: #E5E5E5; }
-  .recently-watched-products__wrapper {
-    padding: 80px 0; }
-  .recently-watched-products__title {
-    margin-bottom: 40px; }
-
 .info-blocks {
   background: #E5E5E5; }
   .info-blocks__wrapper {
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding-bottom: 100px; }
+    padding: 100px 0; }
+
+.sponsors {
+  background: #E5E5E5; }
+  .sponsors__wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .sponsors__item {
+    box-sizing: border-box;
+    flex: 1 1 25%; }
+
+.recently-watched-products {
+  background: #E5E5E5; }
+  .recently-watched-products__wrapper {
+    padding: 80px 0; }
+  .recently-watched-products__title {
+    margin-bottom: 40px; }

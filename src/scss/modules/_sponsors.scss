@@ -1,0 +1,15 @@
+.sponsors {
+    background: $primary3;
+
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        // width: 25%;
+        // max-width: 25%;
+        box-sizing: border-box;
+        flex: 1 1 25%;
+    }
+}
