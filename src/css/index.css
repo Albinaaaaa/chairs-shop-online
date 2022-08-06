@@ -290,3 +290,15 @@ a {
   .footer__location-text {
     font-size: 1rem;
     line-height: 1rem; }
+
+.copyright {
+  background: #EFEFEF; }
+  .copyright__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0; }
+  .copyright__text, .copyright__link {
+    font-size: 0.85rem;
+    line-height: 0.875rem;
+    color: #828282; }
